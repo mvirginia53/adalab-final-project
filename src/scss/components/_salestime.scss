@@ -1,0 +1,34 @@
+.salesTime{
+	padding: 19px;
+	box-sizing: border-box;
+}
+.salestime__container{
+flex-direction: column;
+text-align: center;
+}
+.salestime__container h3{
+	padding:0;
+}
+.salestime__title{
+	padding-bottom: 10px;
+	text-align: left;
+}
+.salestime__text{
+	font-size: 11px;
+	text-align: left;
+}
+.salestime__all-data{
+	text-align: left;
+	display: flex;
+	flex-direction: row;
+	padding:10px 0;
+}
+.salestime__data{
+	background-color: inherit;
+	margin-right: 20px;
+	    width: 50%;
+}
+.salestime__data--title{
+	margin-bottom: 5px;
+	margin-right: 20px;
+}

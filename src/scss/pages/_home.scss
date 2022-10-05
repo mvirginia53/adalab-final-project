@@ -1,0 +1,13 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.block__container {
+	margin: 0 auto;
+	padding: 60px 25px;
+	max-width: 1200px;
+}

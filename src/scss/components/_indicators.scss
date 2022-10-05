@@ -1,0 +1,98 @@
+.indicators__background{
+	background-image: url('../images/bcn.png');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	height: 100%;
+	width: 100%;
+	@media all and (max-width: 619px){
+		height: 100%;
+		background-position: 75%;
+	}
+}
+.indicators__description {
+	padding-top: 60px;
+}
+.indicators__description--text{
+	text-align: center;
+	color: $color-red;
+	padding: 8px;
+	padding-left: 60px;
+	padding-right: 60px;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: 'Gotham Bold';
+	@media all and (max-width: 619px){
+		padding: 13px;
+		font-size: 0.9em;
+	}
+}
+.indicators__description--title {
+	color: $color-white;
+}
+.indicators__list{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	list-style-type: none;
+	justify-items: center;
+	grid-gap: 25px;
+	padding: 0 10px;
+	@media all and (min-width: 620px) and (max-width: 850px){
+		grid-template-columns: 1fr 1fr;
+	}
+	@media all and (max-width: 619px){
+		grid-template-columns: 1fr;
+		margin-top: 20px;
+		text-align: center;
+	}
+}
+.indicators__list--item{
+	background-color: rgba(255, 255, 255, 0.7);
+	color: $color-darkBlue;
+	padding: 30px 10px;
+	border: 1px solid $color-darkBlue;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+	line-height: 20px;
+	&:last-child {
+		@media all and (min-width: 620px) and (max-width: 850px){
+			grid-column: span 2;
+			width: 320px;
+		}
+	}
+	@media all and (max-width: 619px){
+		width: 300px;
+	}
+}
+.indicators__list--item-element-title{
+	font-size: 1.5em;
+	padding-left: 0;
+	text-transform: uppercase;
+	line-height: 20px;
+	padding: 20px 0;
+	@media all and (max-width: 619px){
+		font-size: 1.15em;
+		line-height: 30px;
+	}
+}
+.indicators__list--item-element-list{
+	list-style-type: none;
+	font-size: 1em;
+}
+.indicators__action a{
+	text-decoration: none;
+	display: block;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.indicators__action--text{
+	margin-top: 20px;
+	color: $color-red;
+	font-family: 'Gotham Bold';
+	text-align: center;
+	font-size: 1.5em;
+}
